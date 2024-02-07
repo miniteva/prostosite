@@ -1,0 +1,48 @@
+.root {
+  background-color: white;
+  padding: 15px 0;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: black;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  border-radius: 5px;
+  padding: 0 15px;
+  text-decoration: none;
+
+  &:hover {
+    color: #FEEA98; // Change the text color on hover
+  }
+}
+
+.buttons {
+  button {
+    background-color: white;
+    margin-left: 10px;
+    color: black;
+
+    &:hover {
+      background-color: #FEEA98; /* Изменение цвета наведения на  */
+    }
+
+  }
+
+  .red {
+    &:hover {
+      background-color: #ff4141; /* Изменение цвета наведения на  */
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
